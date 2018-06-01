@@ -1,0 +1,30 @@
+.hidden {
+    display: none;
+}
+
+.modalWin {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: darkgray;
+    opacity: 0.5;
+}
+
+.modalText {
+    position: fixed;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    min-width: 55%;
+    min-height: 55%;
+    background-color: darkred;
+    transform: translate( -50%, -50% );
+}
+
+.modalText {
+    height: 15%;
+    width: 100%;
+    transform: translateY( -50% );
+}
