@@ -14,10 +14,10 @@
     width: 80px;
     height: 80px;
     background-color: black;
-    display: relative;
     border-radius: 50%;
     top: 20px;
     z-index: 1;
+    position: absolute;
    
     
 }
@@ -26,7 +26,8 @@
     width: 80px;
     height: 80px;
     background-color: black;
-    display: absolute;
+    position: absolute;
     border-radius: 50%;
-    background-color: red
+    background-color: red;
+    top: 20px;
 }
