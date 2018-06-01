@@ -31,3 +31,25 @@
     background-color: red;
     top: 20px;
 }
+
+.mole1{
+    left: 50%;
+}
+.cover1{
+    left: 50%;
+}
+
+.mole2{
+    left: 20%;
+}
+
+.cover2{
+    left: 20%;
+}
+
+.mole3{
+    left: 70%;
+}
+.cover3{
+    left: 70%;
+}
