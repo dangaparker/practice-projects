@@ -1,11 +1,18 @@
 
+body {
+    margin: 0;
+    background-color: brown
+}
 .hidden {
     display: none;
 }
+<<<<<<< HEAD
 body{
     width:100vw;
     height: 100vh;
 }
+=======
+>>>>>>> d12478d8b9e4ee3bcff75019539f35f478155296
 .modalWin {
     position: fixed;
     left: 0;
@@ -15,8 +22,7 @@ body{
     background-color: darkgray;
     opacity: 0.5;
 }
-
-.modalText {
+.modalBox {
     position: fixed;
     text-align: center;
     left: 50%;
@@ -25,19 +31,24 @@ body{
     min-height: 55%;
     background-color: darkred;
     transform: translate( -50%, -50% );
+    border-radius: 50%;
 }
 .ground{
     width: 50%;
     height: 50%;
     margin: 0 auto;
 }
+=======
+
 .modalText {
+    color: white;
+    font-size: 2em;
+    position: relative;
     height: 15%;
     width: 100%;
-    transform: translateY( -50% );
+    top: 40%;
+    transform: translateY( 450% );
 }
-
-
 
 .moleContainer{
     width: 20%;
@@ -46,21 +57,20 @@ body{
     background-color: brown;
     display: inline-block;
 }
-
+.moleContainer1 {
+    margin-top: 4%;
+}
 .cover{
     width: 100%;
     height: 100%;
     background-color: black;
 
+
     border-radius: 100%;
-    
+
     z-index: 1;
     position: absolute;
-
-   
-    
 }
-
 .mole{
     width: 100%;
     height: 100%;
@@ -70,5 +80,5 @@ body{
     position: absolute;
     border-radius: 50%;
     background-color: red;
-    
+
 }
