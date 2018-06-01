@@ -1,3 +1,4 @@
+
 .hidden {
     display: none;
 }
@@ -28,6 +29,7 @@
     width: 100%;
     transform: translateY( -50% );
 }
+
 .ground{
     width: 100vw;
     height: 100vh;
@@ -44,10 +46,12 @@
     width: 80px;
     height: 80px;
     background-color: black;
-    display: relative;
+
     border-radius: 50%;
     top: 20px;
     z-index: 1;
+    position: absolute;
+
    
     
 }
@@ -58,5 +62,33 @@
     background-color: black;
     display: absolute;
     border-radius: 50%;
-    background-color: red
+    background-color: red;
+
+    position: absolute;
+    border-radius: 50%;
+    background-color: red;
+    top: 20px;
+}
+
+.mole1{
+    left: 50%;
+}
+.cover1{
+    left: 50%;
+}
+
+.mole2{
+    left: 20%;
+}
+
+.cover2{
+    left: 20%;
+}
+
+.mole3{
+    left: 70%;
+}
+.cover3{
+    left: 70%;
+
 }
