@@ -3,6 +3,19 @@ body {
     margin: 0;
     background-color: brown
 }
+
+.title{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: yellow;
+    font-size: 3em;
+    font-family: ‘Courier New’, Courier, monospace
+}
+
 .hidden {
     display: none;
 }
@@ -45,9 +58,7 @@ body {
     position: relative;
     background-color: brown;
 }
-.moleContainer1 {
-    margin-top: 4%;
-}
+
 .cover{
     width: 80px;
     height: 80px;

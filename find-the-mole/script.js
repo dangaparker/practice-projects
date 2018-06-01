@@ -21,4 +21,6 @@ var startInt=setInterval(randomMole,500);
 
 function youWin() {
     $(".modalWin").removeClass("hidden");
+    $(".cover").css("display", "none");
+    $(".mole").addClass("hidden");
 }
