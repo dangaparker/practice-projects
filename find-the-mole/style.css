@@ -78,16 +78,15 @@ body{
     position: relative;
     background-color: brown;
     display: inline-block;
+    left: 10%;
+    top: 25px;
 }
 
 .cover{
     width: 100%;
     height: 100%;
     background-color: black;
-
-
     border-radius: 100%;
-
     z-index: 1;
     position: absolute;
 }

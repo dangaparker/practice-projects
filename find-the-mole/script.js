@@ -24,4 +24,5 @@ var startInt=setInterval(randomMole,650);
 function youWin() {
     $(".modalWin").removeClass("hidden");
     $(".moleContainer").css("display", "none");
+    $(".score").css("display", "none");
 }
