@@ -4,7 +4,7 @@ function startGame(){
   $(".mole").on("click",function(){
     $(".cover").css("display","block");
       player++
-      $(".score").text(player);
+      $(".PlayerScore").text(player);
   })
    function randomMole(){
        $(".cover").css("display","block");
